@@ -1,0 +1,154 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+}   
+
+.sidebar {
+    background-color:#001139;
+    color: white;
+    height: 100vh;
+}
+
+.footer p span {
+    padding-right: 10px;
+}
+
+.nav-link {
+    color: white;
+    font-size: 20px;
+}
+
+.active {
+    color:#0a58ca;
+}
+.header {
+    border-bottom: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-link {
+    margin-left: -20px;
+}
+
+.footer {
+    padding-top: 120px;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer a:hover {
+    color:#0a58ca;
+}
+.top-bar {
+    background-color: #001139;
+    color: white;
+    height:10vh;
+    display: flex;
+    flex-direction:row;
+}
+
+.top-bar .typed-cursor {
+    padding-top: 20px;
+}
+
+#typed {
+    padding-top: 20px;
+}
+.page-content {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.about-content {
+    color:#002366;
+}
+
+.about-content p {
+    font-size: 25px;
+}
+
+.about-text {
+    height:450px;
+    overflow-y: auto;
+}
+
+.works-header {
+    display:flex;
+    flex-direction:row;
+}
+
+.works-header p {
+    margin-left: 10px;
+    font-size: 17px;
+    margin-top: 15px;
+}
+
+.works-content {
+    display:flex;
+    flex-direction:row;
+    height:450px;
+    overflow-y: auto;
+}
+
+.works-project-row {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+.works-project-row p, h6 {
+    font-size: 14px;
+    font-weight: 400;
+}
+.works-project-row p {
+    margin-top: -3px;
+    margin-left: -2px;
+}
+.card {
+    width: 15rem;
+    padding: 0;
+    cursor: pointer;
+}
+.row {
+    height: 100%;
+}
+
+.works-project-body {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.navbar-toggler-icon {
+    background-image: url('../assets/images/square.svg');
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow:0 0 0 0 !important;
+}
+
+.resume a {
+    color:white;
+}
+
+.resume a:hover {
+    color:#0a58ca;
+}
+
+.phone {
+    margin-top: -10px;
+    color:white;
+}
+
+.phone a {
+    color:white;
+}
+
+.email a {
+    color:white;
+}

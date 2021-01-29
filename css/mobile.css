@@ -1,0 +1,153 @@
+@media only screen and (max-width: 600px) {
+    .header {
+        border-bottom: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    p {
+        font-size: 14px;
+    }
+    .top-bar p {
+        margin-left: -20px;
+    }
+
+    .about-content {
+        margin-left: -20px;
+    }
+
+    .works-header {
+        display:flex;
+        flex-direction:column;
+    }
+
+    .works-header p {
+        margin-left: 0px;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    .works-project-row a {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .sidebar {
+        background-color:  #001139;
+        color: white;
+        height: auto;
+    }
+
+    .footer {
+        margin-top:-80px;
+    }
+
+    .about-content p {
+        font-size: 14px;
+    }
+
+    .top-bar span{
+        margin-left: -20px;
+        font-size: 14px;
+    }
+
+    .top-bar .typed-cursor {
+        margin-left: 0px;
+    }
+  }
+
+  
+  @media only screen and (min-width: 600px) { 
+    
+    .top-bar span{
+        margin-left: 0px;
+        font-size: inherit;
+        margin-top: 20px;
+    }
+
+    .top-bar {
+        background-color: #001139;
+        color: white;
+        height:9vh;
+        display: flex;
+        flex-direction:row;
+    }
+
+    .contact {
+        margin-left: 0px !important;
+    }
+
+    .header {
+        margin-left: 0px !important;
+    }
+
+    .resume {
+        margin-left: 0px !important;
+    }
+
+    .footer {
+        margin-left: 0px !important;
+    }
+
+
+    .sidebar {
+        background-color:  #001139;
+        color: white;
+        height: auto;
+    }
+
+    .email {
+        font-size: 14px;
+    }
+
+    .nav-link {
+        margin-left: -40px;
+    }
+    
+  }
+
+  @media only screen and (min-width: 1024px) { 
+    .navbar-toggler-icon {
+        display: none;
+    }
+
+    .top-bar span{
+        margin-left: 0px;
+        font-size: inherit;
+        margin-top: 0px;
+    }
+
+    .top-bar {
+        background-color: #001139;
+        color: white;
+        height:9.5%;
+        display: flex;
+        flex-direction:row;
+    }
+
+    .contact {
+        margin-left: 20px !important;
+    }
+
+    .header {
+        margin-left: 20px !important;
+    }
+
+    .resume {
+        margin-left: 20px !important;
+    }
+
+    .footer {
+        margin-left: 20px !important;
+    }
+
+    .nav-link {
+        margin-left: -20px;
+    }
+
+    .email {
+        font-size: inherit;
+    }
+  }
+
